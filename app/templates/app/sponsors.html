@@ -1,0 +1,12 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+
+<h1>{{ title }}.</h1>
+
+<a href="https://leroymerlin.ru/" target="_blank"><img src="{% static 'app/content/logo1.png'%}" width="200" height="200" alt="logo1" /></a>
+<a href="https://ru.wikipedia.org/wiki/Анчоусы" target="_blank"><img src="{% static 'app/content/logo2.png'%}" width="200" height="200" alt="logo1" /></a>
+<a href="https://ru.wikipedia.org/wiki/Строительные_материалы" target="_blank"><img src="{% static 'app/content/logo3.png'%}" width="200" height="200" alt="logo1" /></a>
+
+{% endblock %}
